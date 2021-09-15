@@ -16,4 +16,6 @@ public class Ticket1 {
 			this.name = name;
 		}
 		
+	int idticket;
+
 }
