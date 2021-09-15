@@ -1,0 +1,28 @@
+package com.lti.client;
+
+import com.lti.model.Flight;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Flight flight1 = new Flight(1, "Chennai", "Villupuram");
+		System.out.println(flight1.getFlightId()+" "+flight1.getSource()+" "+flight1.getDestination());
+		
+		int num1=10,num2=20;
+		if(add(num1,num2)==30)
+		{
+			System.out.println("testcase passed");
+		}
+		else
+		{
+			System.out.println("testcase failed");
+		}
+	}
+	
+	
+	public static int add(int n1, int n2) {
+		return n1+n2;
+	}
+	
+}
