@@ -13,6 +13,7 @@ public class Passenger {
 	public int getPassengerId() {
 		return passengerId;
 	}
+	//hello
 	public void setPassengerId(int passengerId) {
 		this.passengerId = passengerId;
 	}
